@@ -1,0 +1,18 @@
+{
+  "name": "palette-forge",
+  "version": "1.0.0",
+  "description": "A beautiful web app for generating harmonious color palettes from any base color. Creates complementary, analogous, triadic, and monochromatic schemes with HSL algorithms. Perfect for designers and developers seeking instant color inspiration. Copy hex codes with one click.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "generator",
+    "design",
+    "colors"
+  ],
+  "author": "",
+  "license": "MIT"
+}

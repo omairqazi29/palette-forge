@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palette Forge - Color Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Palette Forge</h1>
+            <p class="subtitle">Generate beautiful color palettes from any color</p>
+        </header>
+
+        <div class="controls">
+            <div class="input-group">
+                <label for="colorPicker">Base Color:</label>
+                <div class="color-input-wrapper">
+                    <input type="color" id="colorPicker" value="#3498db">
+                    <input type="text" id="colorText" value="#3498db" maxlength="7">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="paletteType">Palette Type:</label>
+                <select id="paletteType">
+                    <option value="complementary">Complementary</option>
+                    <option value="analogous">Analogous</option>
+                    <option value="triadic">Triadic</option>
+                    <option value="monochromatic">Monochromatic</option>
+                    <option value="split-complementary">Split Complementary</option>
+                </select>
+            </div>
+
+            <button id="generateBtn">Generate Palette</button>
+            <button id="randomBtn">Random Color</button>
+        </div>
+
+        <div id="palette" class="palette"></div>
+
+        <div class="info">
+            <p>Click on any color to copy its hex code</p>
+        </div>
+    </div>
+
+    <div id="toast" class="toast">Copied to clipboard!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
