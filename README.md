@@ -2,6 +2,8 @@
 
 A beautiful, interactive web app for generating harmonious color palettes from any base color.
 
+**[Live Demo](https://omairqazi29.github.io/palette-forge/)**
+
 ## Features
 
 - **Multiple Palette Types**: Generate complementary, analogous, triadic, monochromatic, and split-complementary color schemes
